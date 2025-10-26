@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Contact Us</title>
+    
+</head>
+<body>
+    <div class="login">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="input">
+                <label for="username">Name</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+	
+			<div class="input"> 
+                <label for="username">Email</label>
+                <input type="email" id="username" name="username" required>
+            </div>
+			
+			
+            <div class="input">
+                <label for="password">Massage</label>
+                <textarea placeholder="" type="massage" id="massage" name="massage" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(255 255 230);
+}
+
+.login {
+    width: 300px;
+    margin: 50px auto;
+	border-radius:10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input input {
+    width: 95%;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 100%;
+	border-radius:10px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+	border-radius:10px;
+}
+
+.login p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login p a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.login p a:hover {
+    color: #3e8e41;
+}
+	
+#massage{
+width:90%;
+height:60px;
+margin-left:10px;
+ color: #4CAF50;
+}	
+	
+</style>
